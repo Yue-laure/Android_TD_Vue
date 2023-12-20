@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.gobelins.dmi1">
 
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
@@ -23,6 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="BB:0D:AC:74:D3:21:E1:43:67:71:9B:62:91:AF:A1:66:6E:44:5D:75"/>
+
     </application>
 
 </manifest>

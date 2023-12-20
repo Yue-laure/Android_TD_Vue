@@ -8,4 +8,26 @@
     tools:context=".MainActivity">
 
 
+    <Button
+        android:id="@+id/btn_home_compute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_home_compute" />
+
+    <Button
+        android:id="@+id/btn_sos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_sos"/>
+    <Button
+        android:id="@+id/btn_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_messages"/>
+    <Button
+        android:id="@+id/btn_Google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_Google"/>
+
 </LinearLayout>
